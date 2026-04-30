@@ -30,6 +30,15 @@ Analyze e-commerce sales data to uncover insights related to customer behavior, 
 
 ---
 
+## 🔄 Project Workflow
+
+1. Data Import into PostgreSQL  
+2. Data Exploration  
+3. Business Analysis using SQL  
+4. Advanced Querying (Window Functions)  
+5. Insight Generation
+
+
 ## 📊 Key Insights
 
 - Technology category generates highest sales
@@ -47,6 +56,10 @@ Analyze e-commerce sales data to uncover insights related to customer behavior, 
 - Optimize product-level performance
 
 ---
+
+## ⚠️ Limitations
+- Dataset is static and not real-time  
+- No data normalization applied  
 
 ## 🛠 Tools Used
 - PostgreSQL

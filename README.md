@@ -38,6 +38,7 @@ Analyze e-commerce sales data to uncover insights related to customer behavior, 
 4. Advanced Querying (Window Functions)  
 5. Insight Generation
 
+---
 
 ## 📊 Key Insights
 
@@ -60,6 +61,8 @@ Analyze e-commerce sales data to uncover insights related to customer behavior, 
 ## ⚠️ Limitations
 - Dataset is static and not real-time  
 - No data normalization applied  
+
+---
 
 ## 🛠 Tools Used
 - PostgreSQL

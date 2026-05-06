@@ -2,7 +2,32 @@
 
 ## 📌 Problem Statement
 Analyze e-commerce sales data to uncover insights related to customer behavior, product performance, and regional trends.
+## 🗄️ Table Schema
 
+```sql
+CREATE TABLE superstore (
+    row_id INT,
+    order_id TEXT,
+    order_date TEXT,
+    ship_date TEXT,
+    ship_mode TEXT,
+    customer_id TEXT,
+    customer_name TEXT,
+    segment TEXT,
+    country TEXT,
+    city TEXT,
+    state TEXT,
+    postal_code TEXT,
+    region TEXT,
+    product_id TEXT,
+    category TEXT,
+    sub_category TEXT,
+    product_name TEXT,
+    sales FLOAT,
+    quantity INT,
+    discount FLOAT,
+    profit FLOAT
+);
 ---
 
 ## 🎯 Objectives
@@ -40,6 +65,14 @@ Analyze e-commerce sales data to uncover insights related to customer behavior, 
 
 ---
 
+## ⚙️ How to Run
+
+1. Import dataset into PostgreSQL
+2. Create table using SQL schema
+3. Run queries from `sql/queries.sql`
+4. Analyze outputs for insights
+
+---
 ## 📊 Key Insights
 
 - Technology category generates highest sales
@@ -49,6 +82,12 @@ Analyze e-commerce sales data to uncover insights related to customer behavior, 
 
 ---
 
+## 📊 Visual Insights
+
+![Sales](visuals/sales.png)
+![Profit](visuals/profit.png)
+
+---
 ## 💡 Business Recommendations
 
 - Focus on high-performing categories

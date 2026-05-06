@@ -1,11 +1,30 @@
 # 🛒 SQL Superstore Analysis | Data Analytics Project
 
+---
+
 ## 📌 Problem Statement
 Analyze e-commerce sales data to uncover insights related to customer behavior, product performance, and regional trends.
+
+---
+
+## 🎯 Objectives
+- Analyze sales and profit performance  
+- Identify top customers and products  
+- Understand regional trends  
+- Perform time-based analysis  
+- Segment customers  
+
+---
+
+## 🗂 Dataset
+- Superstore dataset (21 columns)  
+- Includes orders, customers, and product data  
+
+---
+
 ## 🗄️ Table Schema
 
-```
-sql
+```sql
 CREATE TABLE superstore (
     row_id INT,
     order_id TEXT,
@@ -29,20 +48,6 @@ CREATE TABLE superstore (
     discount FLOAT,
     profit FLOAT
 );
----
-
-## 🎯 Objectives
-- Analyze sales and profit performance
-- Identify top customers and products
-- Understand regional trends
-- Perform time-based analysis
-- Segment customers based on spending
-
----
-
-## 🗂 Dataset
-- Superstore dataset (21 columns)
-- Includes orders, customers, products, and sales data
 
 ---
 
@@ -111,11 +116,14 @@ CREATE TABLE superstore (
 
 ---
 
-## 📂 Project Structure# SQL-Superstore-Analysis
-- data → dataset  
-- sql → queries  
-- docs → insights  
-- visuals → charts  
+## 📂 Project Structure
+SQL-Superstore-Analysis/
+│
+├── data/
+├── sql/
+├── docs/
+├── visuals/
+└── README.md
 
 ---
 

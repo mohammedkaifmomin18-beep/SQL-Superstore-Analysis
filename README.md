@@ -4,7 +4,8 @@
 Analyze e-commerce sales data to uncover insights related to customer behavior, product performance, and regional trends.
 ## 🗄️ Table Schema
 
-```sql
+```
+sql
 CREATE TABLE superstore (
     row_id INT,
     order_id TEXT,

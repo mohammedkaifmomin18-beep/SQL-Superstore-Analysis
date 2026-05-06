@@ -1,7 +1,7 @@
 # 📊 Key Insights
 
 ## Sales Insights
-- Technology category generates highest revenue
+- Technology category contributes the highest share of total revenue, indicating strong demand for high-value products.
 - Office Supplies have lower margins
 
 ## Customer Insights

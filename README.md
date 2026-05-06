@@ -72,7 +72,10 @@ Analyze e-commerce sales data to uncover insights related to customer behavior, 
 ---
 
 ## 📂 Project Structure# SQL-Superstore-Analysis
-
+- data → dataset  
+- sql → queries  
+- docs → insights  
+- visuals → charts  
 
 ---
 

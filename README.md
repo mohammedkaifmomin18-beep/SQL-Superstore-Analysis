@@ -66,7 +66,8 @@ CREATE TABLE superstore (
 3. Create table using the schema above
 4. Run queries from `sql/queries.sql`
 5. Analyze results for insights
-
+👉 SQL Queries: [View Queries](sql/queries.sql)
+👉 Dataset: [Download/View](data/superstore.csv)
 ---
 
 ## 🧠 Key SQL Concepts Used
@@ -102,10 +103,10 @@ CREATE TABLE superstore (
 ```
 SQL-Superstore-Analysis/
 │
-├── data/          → Dataset
+├── data/          → Raw dataset
 ├── sql/           → SQL queries
-├── docs/          → Insights
-├── visuals/       → Charts (optional)
+├── docs/          → Business insights
+├── visuals/       → Charts
 └── README.md
 ```
 

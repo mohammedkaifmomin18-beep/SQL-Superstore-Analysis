@@ -1,3 +1,6 @@
+-- Total sales & profit
+SELECT SUM(sales) AS total_sales, SUM(profit) AS total_profit
+FROM superstore;
 
 -- Sales by category
 SELECT category, SUM(sales) AS total_sales

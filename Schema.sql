@@ -28,45 +28,8 @@ CREATE TABLE superstore (
     weeknum INT
 );
 
-SELECT * FROM superstore LIMIT 10;
-
--- Total rows
-SELECT COUNT(*) FROM superstore;
-
--- Total sales & profit
-SELECT SUM(sales) AS total_sales, SUM(profit) AS total_profit
-FROM superstore;
-
--- Unique customers
-SELECT COUNT(DISTINCT customer_id) FROM superstore;
 
 
--- Profit by region
-SELECT region, SUM(profit) AS total_profit
-FROM superstore
-GROUP BY region
-ORDER BY total_profit DESC;
 
--- Top 5 customers
-SELECT customer_name, SUM(sales) AS total_sales
-FROM superstore
-GROUP BY customer_name
-ORDER BY total_sales DESC
-LIMIT 5;
-
--- Monthly sales trend
-SELECT 
-    DATE_TRUNC('month', TO_DATE(order_date, 'MM/DD/YYYY')) AS month,
-    SUM(sales) AS total_sales
-FROM superstore
-GROUP BY month
-ORDER BY month;
-
--- Top products by quantity
-SELECT product_name, SUM(quantity) AS total_qty
-FROM superstore
-GROUP BY product_name
-ORDER BY total_qty DESC
-LIMIT 10;
 
 

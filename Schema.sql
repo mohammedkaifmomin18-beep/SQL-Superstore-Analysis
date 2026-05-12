@@ -40,11 +40,6 @@ FROM superstore;
 -- Unique customers
 SELECT COUNT(DISTINCT customer_id) FROM superstore;
 
--- Sales by category
-SELECT category, SUM(sales) AS total_sales
-FROM superstore
-GROUP BY category
-ORDER BY total_sales DESC;
 
 -- Profit by region
 SELECT region, SUM(profit) AS total_profit

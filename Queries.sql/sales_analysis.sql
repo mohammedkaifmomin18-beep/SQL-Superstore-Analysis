@@ -1,3 +1,10 @@
+
+-- Sales by category
+SELECT category, SUM(sales) AS total_sales
+FROM superstore
+GROUP BY category
+ORDER BY total_sales DESC;
+
 -- Customer segmentation
 SELECT customer_name,
        SUM(sales) AS total_spent,

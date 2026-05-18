@@ -1,5 +1,5 @@
-# 🛒 SQL Superstore Analysis | Data Analytics Project
-
+# 🛒 SQL Superstore Analysis
+### End-to-End Data Analytics Project
 ---
 
 ## 📌 Problem Statement
